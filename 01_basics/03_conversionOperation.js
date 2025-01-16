@@ -1,5 +1,5 @@
 let score = "ven"
-
+//these two are used to know the datatype
 //console.log(typeof score);
 //console.log(typeof(score));
 
