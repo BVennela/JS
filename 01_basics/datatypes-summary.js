@@ -34,3 +34,31 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//+++++++++++++++++++++++++++++++++++++++++++++++
+
+//memories of two types
+// Stack memorie uses (Primitive) : hear you get copy,
+//  Heap memorie uses (Non-Primitive): hesr you get the refreance
+
+let myYoutubename = "vennela.com"
+
+let anothername =  myYoutubename
+anothername = "vennu"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: " user.com",
+    upi: "user123"
+}
+
+let userTwo = userOne
+
+userTwo.email = "vennela@mail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
